@@ -21,14 +21,14 @@ namespace CarBio_30._11._2019
         {
             Car_Information cı = new Car_Information();
             cı.Show();
-            this.Close();
+            
         }
 
         private void motorlarIGörüntüleToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Motor_Information mı = new Motor_Information();
             mı.Show();
-            this.Close();
+           
         }
 
         private void çıkışToolStripMenuItem_Click(object sender, EventArgs e)
@@ -36,6 +36,24 @@ namespace CarBio_30._11._2019
             First_Select_Entering fse = new First_Select_Entering();
             fse.Show();
             this.Close();
+        }
+
+        private void bilgilerimiToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Customer_Edit ce = new Customer_Edit();
+            ce.Show();
+        }
+
+        private void geçmişİşlemlerimiGörüntüleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Customer_Past_Operation cpo = new Customer_Past_Operation();
+            cpo.Show();
+        }
+
+        private void bilgilerimiDüzenleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Customer_Show_Information csı = new Customer_Show_Information();
+            csı.Show();
         }
     }
 }

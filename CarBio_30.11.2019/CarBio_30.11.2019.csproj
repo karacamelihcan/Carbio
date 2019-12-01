@@ -46,6 +46,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Customer_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_Edit.Designer.cs">
+      <DependentUpon>Customer_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_Delete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_Delete.Designer.cs">
+      <DependentUpon>Customer_Delete.cs</DependentUpon>
+    </Compile>
     <Compile Include="Customer_Homepage.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -64,11 +76,23 @@
     <Compile Include="Customer_Logın.Designer.cs">
       <DependentUpon>Customer_Logın.cs</DependentUpon>
     </Compile>
+    <Compile Include="Customer_Past_Operation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_Past_Operation.Designer.cs">
+      <DependentUpon>Customer_Past_Operation.cs</DependentUpon>
+    </Compile>
     <Compile Include="Customer_Register.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Customer_Register.Designer.cs">
       <DependentUpon>Customer_Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_Show_Information.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_Show_Information.Designer.cs">
+      <DependentUpon>Customer_Show_Information.cs</DependentUpon>
     </Compile>
     <Compile Include="First_Select_Entering.cs">
       <SubType>Form</SubType>
@@ -186,6 +210,12 @@
     <Compile Include="Car_Information.Designer.cs">
       <DependentUpon>Car_Information.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Customer_Edit.resx">
+      <DependentUpon>Customer_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer_Delete.resx">
+      <DependentUpon>Customer_Delete.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Customer_Homepage.resx">
       <DependentUpon>Customer_Homepage.cs</DependentUpon>
     </EmbeddedResource>
@@ -195,8 +225,14 @@
     <EmbeddedResource Include="Customer_Logın.resx">
       <DependentUpon>Customer_Logın.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Customer_Past_Operation.resx">
+      <DependentUpon>Customer_Past_Operation.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Customer_Register.resx">
       <DependentUpon>Customer_Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer_Show_Information.resx">
+      <DependentUpon>Customer_Show_Information.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="First_Select_Entering.resx">
       <DependentUpon>First_Select_Entering.cs</DependentUpon>

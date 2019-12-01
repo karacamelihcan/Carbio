@@ -79,7 +79,7 @@
             this.müşteriHizmetleriToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("müşteriHizmetleriToolStripMenuItem.Image")));
             this.müşteriHizmetleriToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.müşteriHizmetleriToolStripMenuItem.Name = "müşteriHizmetleriToolStripMenuItem";
-            this.müşteriHizmetleriToolStripMenuItem.Size = new System.Drawing.Size(310, 36);
+            this.müşteriHizmetleriToolStripMenuItem.Size = new System.Drawing.Size(312, 36);
             this.müşteriHizmetleriToolStripMenuItem.Text = "Customer Operation";
             // 
             // müşteriBilgileriToolStripMenuItem
@@ -88,7 +88,7 @@
             this.müşteriBilgileriToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("müşteriBilgileriToolStripMenuItem.Image")));
             this.müşteriBilgileriToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.müşteriBilgileriToolStripMenuItem.Name = "müşteriBilgileriToolStripMenuItem";
-            this.müşteriBilgileriToolStripMenuItem.Size = new System.Drawing.Size(452, 30);
+            this.müşteriBilgileriToolStripMenuItem.Size = new System.Drawing.Size(460, 30);
             this.müşteriBilgileriToolStripMenuItem.Text = "Show Customer Information";
             this.müşteriBilgileriToolStripMenuItem.Click += new System.EventHandler(this.müşteriBilgileriToolStripMenuItem_Click);
             // 
@@ -98,7 +98,7 @@
             this.müşteriEkleToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("müşteriEkleToolStripMenuItem.Image")));
             this.müşteriEkleToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.müşteriEkleToolStripMenuItem.Name = "müşteriEkleToolStripMenuItem";
-            this.müşteriEkleToolStripMenuItem.Size = new System.Drawing.Size(452, 30);
+            this.müşteriEkleToolStripMenuItem.Size = new System.Drawing.Size(460, 30);
             this.müşteriEkleToolStripMenuItem.Text = "Add Customer ";
             this.müşteriEkleToolStripMenuItem.Click += new System.EventHandler(this.müşteriEkleToolStripMenuItem_Click);
             // 
@@ -108,8 +108,9 @@
             this.müşteriÇıkarToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("müşteriÇıkarToolStripMenuItem.Image")));
             this.müşteriÇıkarToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.müşteriÇıkarToolStripMenuItem.Name = "müşteriÇıkarToolStripMenuItem";
-            this.müşteriÇıkarToolStripMenuItem.Size = new System.Drawing.Size(452, 30);
+            this.müşteriÇıkarToolStripMenuItem.Size = new System.Drawing.Size(460, 30);
             this.müşteriÇıkarToolStripMenuItem.Text = "Delete Customer ";
+            this.müşteriÇıkarToolStripMenuItem.Click += new System.EventHandler(this.müşteriÇıkarToolStripMenuItem_Click);
             // 
             // müşteriBilgisiDüzenleToolStripMenuItem
             // 
@@ -117,8 +118,9 @@
             this.müşteriBilgisiDüzenleToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("müşteriBilgisiDüzenleToolStripMenuItem.Image")));
             this.müşteriBilgisiDüzenleToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.müşteriBilgisiDüzenleToolStripMenuItem.Name = "müşteriBilgisiDüzenleToolStripMenuItem";
-            this.müşteriBilgisiDüzenleToolStripMenuItem.Size = new System.Drawing.Size(452, 30);
+            this.müşteriBilgisiDüzenleToolStripMenuItem.Size = new System.Drawing.Size(460, 30);
             this.müşteriBilgisiDüzenleToolStripMenuItem.Text = "Edit Customer Information";
+            this.müşteriBilgisiDüzenleToolStripMenuItem.Click += new System.EventHandler(this.müşteriBilgisiDüzenleToolStripMenuItem_Click);
             // 
             // müşteriBilgisiniExceleAktarToolStripMenuItem
             // 
@@ -126,7 +128,7 @@
             this.müşteriBilgisiniExceleAktarToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("müşteriBilgisiniExceleAktarToolStripMenuItem.Image")));
             this.müşteriBilgisiniExceleAktarToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.müşteriBilgisiniExceleAktarToolStripMenuItem.Name = "müşteriBilgisiniExceleAktarToolStripMenuItem";
-            this.müşteriBilgisiniExceleAktarToolStripMenuItem.Size = new System.Drawing.Size(452, 30);
+            this.müşteriBilgisiniExceleAktarToolStripMenuItem.Size = new System.Drawing.Size(460, 30);
             this.müşteriBilgisiniExceleAktarToolStripMenuItem.Text = "Sent To Excel Customer Information";
             // 
             // araçİşlemleriToolStripMenuItem
@@ -142,7 +144,7 @@
             this.araçİşlemleriToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.araçİşlemleriToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.araçİşlemleriToolStripMenuItem.Name = "araçİşlemleriToolStripMenuItem";
-            this.araçİşlemleriToolStripMenuItem.Size = new System.Drawing.Size(244, 36);
+            this.araçİşlemleriToolStripMenuItem.Size = new System.Drawing.Size(246, 36);
             this.araçİşlemleriToolStripMenuItem.Text = "Cars Operation";
             // 
             // araçGörüntüleToolStripMenuItem
@@ -151,7 +153,7 @@
             this.araçGörüntüleToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("araçGörüntüleToolStripMenuItem.Image")));
             this.araçGörüntüleToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.araçGörüntüleToolStripMenuItem.Name = "araçGörüntüleToolStripMenuItem";
-            this.araçGörüntüleToolStripMenuItem.Size = new System.Drawing.Size(310, 30);
+            this.araçGörüntüleToolStripMenuItem.Size = new System.Drawing.Size(318, 30);
             this.araçGörüntüleToolStripMenuItem.Text = "Show Cars";
             this.araçGörüntüleToolStripMenuItem.Click += new System.EventHandler(this.araçGörüntüleToolStripMenuItem_Click);
             // 
@@ -161,7 +163,7 @@
             this.araçEkleToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("araçEkleToolStripMenuItem.Image")));
             this.araçEkleToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.araçEkleToolStripMenuItem.Name = "araçEkleToolStripMenuItem";
-            this.araçEkleToolStripMenuItem.Size = new System.Drawing.Size(310, 30);
+            this.araçEkleToolStripMenuItem.Size = new System.Drawing.Size(318, 30);
             this.araçEkleToolStripMenuItem.Text = "Add Cars";
             this.araçEkleToolStripMenuItem.Click += new System.EventHandler(this.araçEkleToolStripMenuItem_Click);
             // 
@@ -171,7 +173,7 @@
             this.araçÇıkarToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("araçÇıkarToolStripMenuItem.Image")));
             this.araçÇıkarToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.araçÇıkarToolStripMenuItem.Name = "araçÇıkarToolStripMenuItem";
-            this.araçÇıkarToolStripMenuItem.Size = new System.Drawing.Size(310, 30);
+            this.araçÇıkarToolStripMenuItem.Size = new System.Drawing.Size(318, 30);
             this.araçÇıkarToolStripMenuItem.Text = "Delete Cars";
             this.araçÇıkarToolStripMenuItem.Click += new System.EventHandler(this.araçÇıkarToolStripMenuItem_Click);
             // 
@@ -181,7 +183,7 @@
             this.araçBilgileriniDüzenleToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("araçBilgileriniDüzenleToolStripMenuItem.Image")));
             this.araçBilgileriniDüzenleToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.araçBilgileriniDüzenleToolStripMenuItem.Name = "araçBilgileriniDüzenleToolStripMenuItem";
-            this.araçBilgileriniDüzenleToolStripMenuItem.Size = new System.Drawing.Size(310, 30);
+            this.araçBilgileriniDüzenleToolStripMenuItem.Size = new System.Drawing.Size(318, 30);
             this.araçBilgileriniDüzenleToolStripMenuItem.Text = "Edit Cars Information";
             this.araçBilgileriniDüzenleToolStripMenuItem.Click += new System.EventHandler(this.araçBilgileriniDüzenleToolStripMenuItem_Click);
             // 
@@ -197,7 +199,7 @@
             this.motorİşlemleriToolStripMenuItem.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.motorİşlemleriToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.motorİşlemleriToolStripMenuItem.Name = "motorİşlemleriToolStripMenuItem";
-            this.motorİşlemleriToolStripMenuItem.Size = new System.Drawing.Size(327, 36);
+            this.motorİşlemleriToolStripMenuItem.Size = new System.Drawing.Size(329, 36);
             this.motorİşlemleriToolStripMenuItem.Text = "Motorcycle Operation";
             // 
             // motorİşlemleriToolStripMenuItem1
@@ -206,7 +208,7 @@
             this.motorİşlemleriToolStripMenuItem1.Image = ((System.Drawing.Image)(resources.GetObject("motorİşlemleriToolStripMenuItem1.Image")));
             this.motorİşlemleriToolStripMenuItem1.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.motorİşlemleriToolStripMenuItem1.Name = "motorİşlemleriToolStripMenuItem1";
-            this.motorİşlemleriToolStripMenuItem1.Size = new System.Drawing.Size(375, 30);
+            this.motorİşlemleriToolStripMenuItem1.Size = new System.Drawing.Size(383, 30);
             this.motorİşlemleriToolStripMenuItem1.Text = "Show Motorcycle";
             this.motorİşlemleriToolStripMenuItem1.Click += new System.EventHandler(this.motorİşlemleriToolStripMenuItem1_Click);
             // 
@@ -216,7 +218,7 @@
             this.motorEkleToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("motorEkleToolStripMenuItem.Image")));
             this.motorEkleToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.motorEkleToolStripMenuItem.Name = "motorEkleToolStripMenuItem";
-            this.motorEkleToolStripMenuItem.Size = new System.Drawing.Size(375, 30);
+            this.motorEkleToolStripMenuItem.Size = new System.Drawing.Size(383, 30);
             this.motorEkleToolStripMenuItem.Text = "Add Motorcycle";
             this.motorEkleToolStripMenuItem.Click += new System.EventHandler(this.motorEkleToolStripMenuItem_Click);
             // 
@@ -226,7 +228,7 @@
             this.motorÇıkarToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("motorÇıkarToolStripMenuItem.Image")));
             this.motorÇıkarToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.motorÇıkarToolStripMenuItem.Name = "motorÇıkarToolStripMenuItem";
-            this.motorÇıkarToolStripMenuItem.Size = new System.Drawing.Size(375, 30);
+            this.motorÇıkarToolStripMenuItem.Size = new System.Drawing.Size(383, 30);
             this.motorÇıkarToolStripMenuItem.Text = "Delete Motorcycle";
             this.motorÇıkarToolStripMenuItem.Click += new System.EventHandler(this.motorÇıkarToolStripMenuItem_Click);
             // 
@@ -236,7 +238,7 @@
             this.motorBilgileriniDüzenleToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("motorBilgileriniDüzenleToolStripMenuItem.Image")));
             this.motorBilgileriniDüzenleToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.motorBilgileriniDüzenleToolStripMenuItem.Name = "motorBilgileriniDüzenleToolStripMenuItem";
-            this.motorBilgileriniDüzenleToolStripMenuItem.Size = new System.Drawing.Size(375, 30);
+            this.motorBilgileriniDüzenleToolStripMenuItem.Size = new System.Drawing.Size(383, 30);
             this.motorBilgileriniDüzenleToolStripMenuItem.Text = "Edit Motorcycle Information";
             this.motorBilgileriniDüzenleToolStripMenuItem.Click += new System.EventHandler(this.motorBilgileriniDüzenleToolStripMenuItem_Click);
             // 
@@ -246,7 +248,7 @@
             this.çıkışYapToolStripMenuItem.Image = ((System.Drawing.Image)(resources.GetObject("çıkışYapToolStripMenuItem.Image")));
             this.çıkışYapToolStripMenuItem.ImageScaling = System.Windows.Forms.ToolStripItemImageScaling.None;
             this.çıkışYapToolStripMenuItem.Name = "çıkışYapToolStripMenuItem";
-            this.çıkışYapToolStripMenuItem.Size = new System.Drawing.Size(106, 36);
+            this.çıkışYapToolStripMenuItem.Size = new System.Drawing.Size(108, 36);
             this.çıkışYapToolStripMenuItem.Text = "Exit";
             this.çıkışYapToolStripMenuItem.Click += new System.EventHandler(this.çıkışYapToolStripMenuItem_Click);
             // 

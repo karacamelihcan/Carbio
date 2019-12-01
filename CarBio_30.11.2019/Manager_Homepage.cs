@@ -110,5 +110,11 @@ namespace CarBio_30._11._2019
             fse.Show();
             this.Close();
         }
+
+        private void müsteriCıkarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Customer_Delete cst = new Customer_Delete();
+            cst.Show();
+        }
     }
 }

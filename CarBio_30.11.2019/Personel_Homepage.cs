@@ -87,7 +87,18 @@ namespace CarBio_30._11._2019
         {
             First_Select_Entering fse = new First_Select_Entering();
             fse.Show();
-            this.Close();
+        }
+
+        private void müşteriÇıkarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Customer_Delete cts = new Customer_Delete();
+            cts.Show();
+        }
+
+        private void müşteriBilgisiDüzenleToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Customer_Edit cst = new Customer_Edit();
+            cst.Show();
         }
     }
 }
