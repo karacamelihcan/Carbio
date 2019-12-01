@@ -16,7 +16,7 @@ namespace CarBio_30._11._2019
         {
            // Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Customer_Logın());
+            Application.Run(new Starting_Downloading());
         }
     }
 }
