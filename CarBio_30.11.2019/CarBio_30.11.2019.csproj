@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{FC2D4614-F59E-41B4-8682-032372B68F2E}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CarBio_30._11._2019</RootNamespace>
+    <AssemblyName>CarBio_30.11.2019</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Customer_Homepage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_Homepage.Designer.cs">
+      <DependentUpon>Customer_Homepage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_Information.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_Information.Designer.cs">
+      <DependentUpon>Customer_Information.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_Logın.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_Logın.Designer.cs">
+      <DependentUpon>Customer_Logın.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer_Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer_Register.Designer.cs">
+      <DependentUpon>Customer_Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="First_Select_Entering.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="First_Select_Entering.Designer.cs">
+      <DependentUpon>First_Select_Entering.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager_Homepage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager_Homepage.Designer.cs">
+      <DependentUpon>Manager_Homepage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager_Login.Designer.cs">
+      <DependentUpon>Manager_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Manager_Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manager_Register.Designer.cs">
+      <DependentUpon>Manager_Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Motor_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Motor_Add.Designer.cs">
+      <DependentUpon>Motor_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Motor_Delete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Motor_Delete.Designer.cs">
+      <DependentUpon>Motor_Delete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Motor_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Motor_Edit.Designer.cs">
+      <DependentUpon>Motor_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Motor_Information.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Motor_Information.Designer.cs">
+      <DependentUpon>Motor_Information.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Personel_Delete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Personel_Delete.Designer.cs">
+      <DependentUpon>Personel_Delete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Personel_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Personel_Edit.Designer.cs">
+      <DependentUpon>Personel_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Personel_Homepage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Personel_Homepage.Designer.cs">
+      <DependentUpon>Personel_Homepage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Personel_Information.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Personel_Information.Designer.cs">
+      <DependentUpon>Personel_Information.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Personel_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Personel_Login.Designer.cs">
+      <DependentUpon>Personel_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Personel_Register.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Personel_Register.Designer.cs">
+      <DependentUpon>Personel_Register.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Starting_Downloading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Starting_Downloading.Designer.cs">
+      <DependentUpon>Starting_Downloading.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Car_Add.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Car_Add.Designer.cs">
+      <DependentUpon>Car_Add.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Car_Delete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Car_Delete.Designer.cs">
+      <DependentUpon>Car_Delete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Car_Edit.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Car_Edit.Designer.cs">
+      <DependentUpon>Car_Edit.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Car_Information.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Car_Information.Designer.cs">
+      <DependentUpon>Car_Information.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Customer_Homepage.resx">
+      <DependentUpon>Customer_Homepage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer_Information.resx">
+      <DependentUpon>Customer_Information.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer_Logın.resx">
+      <DependentUpon>Customer_Logın.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer_Register.resx">
+      <DependentUpon>Customer_Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="First_Select_Entering.resx">
+      <DependentUpon>First_Select_Entering.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager_Homepage.resx">
+      <DependentUpon>Manager_Homepage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager_Login.resx">
+      <DependentUpon>Manager_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manager_Register.resx">
+      <DependentUpon>Manager_Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Motor_Add.resx">
+      <DependentUpon>Motor_Add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Motor_Delete.resx">
+      <DependentUpon>Motor_Delete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Motor_Edit.resx">
+      <DependentUpon>Motor_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Motor_Information.resx">
+      <DependentUpon>Motor_Information.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Personel_Delete.resx">
+      <DependentUpon>Personel_Delete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Personel_Edit.resx">
+      <DependentUpon>Personel_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Personel_Homepage.resx">
+      <DependentUpon>Personel_Homepage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Personel_Information.resx">
+      <DependentUpon>Personel_Information.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Personel_Login.resx">
+      <DependentUpon>Personel_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Personel_Register.resx">
+      <DependentUpon>Personel_Register.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Starting_Downloading.resx">
+      <DependentUpon>Starting_Downloading.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Car_Add.resx">
+      <DependentUpon>Car_Add.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Car_Delete.resx">
+      <DependentUpon>Car_Delete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Car_Edit.resx">
+      <DependentUpon>Car_Edit.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Car_Information.resx">
+      <DependentUpon>Car_Information.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
