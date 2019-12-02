@@ -47,9 +47,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Car.cs" />
+    <Compile Include="IPerson2.cs" />
+    <Compile Include="Manager.cs" />
+    <Compile Include="Person2.cs" />
+    <Compile Include="Customer.cs" />
     <Compile Include="ICar.cs" />
+    <Compile Include="ICustomer.cs" />
     <Compile Include="IMotor.cs" />
     <Compile Include="Motor.cs" />
+    <Compile Include="Person1.cs" />
+    <Compile Include="Personnel.cs" />
     <Compile Include="Vehicle.cs" />
     <Compile Include="Customer_Homepage.cs">
       <SubType>Form</SubType>
