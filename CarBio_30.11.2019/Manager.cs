@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CarBio_30._11._2019
 {
-    class Manager: Personnel
+    class Manager : Personnel
     {
         public string ManagerID;
 

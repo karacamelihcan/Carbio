@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CarBio_30._11._2019
 {
-   public class Vehicle
+    class Vehicle
     {
         public string brand;
         public string model;
@@ -20,6 +20,5 @@ namespace CarBio_30._11._2019
         public int monthly_Price;
         public int yearly_Price;
         public bool status;
-     
     }
 }

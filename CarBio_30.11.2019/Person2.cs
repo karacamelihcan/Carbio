@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CarBio_30._11._2019
 {
-    class Person2:Person1,IPerson2
+    class Person2 : Person1, IPerson2
     {
 
     }

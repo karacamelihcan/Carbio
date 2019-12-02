@@ -46,6 +46,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Car.cs" />
+    <Compile Include="ICar.cs" />
+    <Compile Include="IMotor.cs" />
+    <Compile Include="Motor.cs" />
+    <Compile Include="Vehicle.cs" />
     <Compile Include="Customer_Homepage.cs">
       <SubType>Form</SubType>
     </Compile>

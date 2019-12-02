@@ -8,6 +8,5 @@ namespace CarBio_30._11._2019
 {
     interface ICar
     {
-        
     }
 }
